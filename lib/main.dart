@@ -1,10 +1,6 @@
-import 'package:catetdoit/Expenses.dart';
+import 'package:catetdoit/expenses.dart';
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(
-    MaterialApp(
-        home: Expenses(),
-    )
-  );
+void main() {
+  runApp(MaterialApp(home: Expenses()));
 }
